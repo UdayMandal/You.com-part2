@@ -1,0 +1,20 @@
+*:focus {
+  outline: none;
+}
+.dropdown-content a {
+  float: none;
+  font-size: 14px;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
